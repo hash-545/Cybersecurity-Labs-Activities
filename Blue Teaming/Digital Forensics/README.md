@@ -1,5 +1,5 @@
-# Digital Forensics
 > /BlueTeaming/DigitalForensics/
+# Digital Forensics
 
 ## Objectives
 - Understand the **NIST four-phase framework** for digital forensics: **Collection, Examination, Analysis, and Reporting**.  
@@ -21,7 +21,7 @@
 4. Retrieved photo EXIF metadata with `exiftool`, including **GPS coordinates**, to determine location.  
 
 
-## Key Learnings / Outcomes
+## Key Learnings
 - Digital forensics follows a **structured methodology** to ensure evidence integrity and admissibility.  
 - Proper **authorization and chain of custody** are critical for legal reliability.  
 - Disk and memory imaging provide **complementary evidence** (persistent vs. volatile).  
