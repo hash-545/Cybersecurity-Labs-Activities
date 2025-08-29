@@ -1,4 +1,4 @@
-> /BlueTeaming/DigitalForensics/
+> /BlueTeaming/inetsim/
 # INetSim with REMnux
 
 ## Objectives
@@ -26,14 +26,12 @@
    - Verified files were downloaded successfully.  
 6. Stopped INetSim and reviewed the **connection report** in `/var/log/inetsim/report/`.  
 
-
 ## Key Learnings
 - **INetSim** is effective for simulating internet services in a contained lab environment.  
 - Malware behaviour such as **C2 communication** and **payload downloads** can be safely emulated.  
 - Configuration of `dns_default_ip` ensures simulated DNS resolves to the REMnux machine.  
 - INetSim logs provide detailed information about connections, protocols, and fake file interactions.  
 - This approach avoids the need for complex infrastructure while still providing realistic analysis data.  
-
 
 ## Screenshots
 Please refer to the attached screenshots in this directory
