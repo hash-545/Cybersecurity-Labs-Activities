@@ -16,6 +16,6 @@ Each directory includes:
 - **Tools used**  
 - **Steps performed**  
 - **Screenshots** as proof of work  
-- **Key learnings / outcomes**
+- **Key learnings**
 
-Use the ABOUT in each folder to explore specific lab activities.
+Use the README in each folder to explore specific lab activities.
