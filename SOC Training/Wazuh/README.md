@@ -1,7 +1,7 @@
 > /SOCTraining/Wazuh
 # Wazuh EDR
 
-## Objective
+## Objectives
 The objective of this lab was to practice **endpoint detection and response (EDR)** using **Wazuh**. By working with a Wazuh management server and agents, we explored rule-based detection, log analysis, vulnerability scanning, compliance monitoring, and reporting features to understand how analysts monitor endpoints and respond to threats.  
 
 ## Tools Used
