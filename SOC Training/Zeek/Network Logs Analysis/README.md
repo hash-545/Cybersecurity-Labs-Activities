@@ -1,4 +1,4 @@
-> /SOCTraining/Zeek
+> /SOCTraining/Zeek/NetworkAnalysis
 # Zeek: Network Security Monitoring
 
 ## Objectives
@@ -50,4 +50,4 @@ The objective of this lab was to practice **network traffic analysis and threat 
 - Effective network threat detection combines **signatures, scripts, packages, and log analysis** for comprehensive monitoring.
 
 ## Screenshots
-Please refer to the attached screenshots in this directory
+Please refer to the attached screenshots in this directory.
