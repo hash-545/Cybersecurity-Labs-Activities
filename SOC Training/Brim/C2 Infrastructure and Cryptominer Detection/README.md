@@ -1,6 +1,6 @@
-> /SOCTraining/Zeek/ZeekChallenge
+> /SOCTraining/Brim/C2 & cryptomining
 
-# Brim: Network Analysis and Threat Hunting
+# Brim: Network Forensics and Threat Hunting
 
 ## Objectives
 The objective of these labs was to practice **network traffic analysis, correlation, and threat hunting** using **Brim**. By investigating provided PCAP files, reviewing generated Zeek logs, running built-in and custom queries, and correlating findings with external tools (e.g., VirusTotal), we explored malicious activity such as **DNS tunneling, phishing, Log4J exploitation, malware C2, and crypto mining**.
