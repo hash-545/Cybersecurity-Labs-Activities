@@ -15,7 +15,7 @@ Each directory includes:
 - **Objectives** of the lab  
 - **Tools used**  
 - **Steps performed**  
-- **Screenshots** as proof of work  
 - **Key learnings**
+- **Screenshots** as proof of work  
 
 Use the README in each folder to explore specific lab activities.

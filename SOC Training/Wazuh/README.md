@@ -48,3 +48,13 @@ The objective of this lab was to practice **endpoint detection and response (EDR
 
 ## Screenshots
 Please refer to the attached screenshots in this directory
+
+![](./Screenshot_20250902_032237.png)
+
+![](./Screenshot_20250902_040401.png)
+
+![](./Screenshot_20250902_040448.png)
+
+![](./Screenshot_20250902_040537.png)
+
+![](./Screenshot_20250902_040609.png)

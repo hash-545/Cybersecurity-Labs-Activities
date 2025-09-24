@@ -47,3 +47,17 @@ Scenarios covered:
 
 ## Screenshots
 Please refer to the attached screenshots in this directory.
+
+![](./Screenshot_20250906_063139.png)
+
+![](./Screenshot_20250906_063218.png)
+
+![](./Screenshot_20250906_070741.png)
+
+![](./Screenshot_20250906_070756.png)
+
+![](./Screenshot_20250906_072132.png)
+
+![](./Screenshot_20250906_072147.png)
+
+![](./Screenshot_20250906_072203.png)

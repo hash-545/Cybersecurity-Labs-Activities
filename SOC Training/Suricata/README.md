@@ -48,3 +48,7 @@ By reviewing PCAP traffic, we created a custom Suricata rule to detect HTTP acti
 
 ## Screenshots
 Please refer to the attached screenshots in this directory.
+
+![](./Screenshot_20250907_002051.png)
+
+![](./Screenshot_20250907_003813.png)

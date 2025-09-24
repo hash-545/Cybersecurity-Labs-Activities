@@ -48,3 +48,28 @@ The objective of these labs was to practice **network traffic analysis, correlat
 ## Screenshots
 Please refer to the attached screenshots in this directory.
  
+![](./Screenshot_20250912_045653.png)
+
+
+![](./Screenshot_20250912_045715.png) 
+
+
+![](./Screenshot_20250912_052604.png)
+
+
+![](./Screenshot_20250912_052616.png)
+
+
+![](./Screenshot_20250913_051443.png)
+
+
+![](./Screenshot_20250913_051616.png)
+
+
+![](./Screenshot_20250913_073552.png)
+
+
+![](./Screenshot_20250913_073805.png)
+
+
+![](./Screenshot_20250913_073913.png)

@@ -49,3 +49,33 @@ Primary goals were to identify victim endpoints, malicious domains and servers, 
 
 ## Screenshots as Proof of Work
 Please refer to attached screenshots in this directory
+
+![](./Infection_A%20-%201.png)
+
+![](./Infection_A%20-%202.png)
+
+![](./Infection_A%20-%203.png)
+
+![](./Infection_A%20-%204.png)
+
+![](./Infection_A%20-%205.png)
+
+![](./Infection_A%20-%206.png)
+
+![](./Infection_B%20-%201.png)
+
+![](./Infection_B%20-%202.png)
+
+![](./Infection_B%20-%203.png)
+
+![](./Infection_B%20-%204.png)
+
+![](./Infection_C%20-%201.png)
+
+![](./Infection_C%20-%202.png)
+
+![](./Infection_C%20-%203.png)
+
+![](./Infection_C%20-%204.png)
+
+![](./Infection_C%20-%205.png)

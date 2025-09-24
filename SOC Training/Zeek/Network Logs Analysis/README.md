@@ -51,3 +51,31 @@ The objective of this lab was to practice **network traffic analysis and threat 
 
 ## Screenshots
 Please refer to the attached screenshots in this directory.
+
+![](./Screenshot_20250903_030601.png)
+
+![](./Screenshot_20250903_044849.png)
+
+![](./Screenshot_20250903_044912.png)
+
+![](./Screenshot_20250904_042047.png)
+
+![](./Screenshot_20250904_042212.png)
+
+![](./Screenshot_20250904_042309.png)
+
+![](./Screenshot_20250904_042243.png)
+
+![](./Screenshot_20250904_045540.png)
+
+![](./Screenshot_20250904_045556.png)
+
+![](./Screenshot_20250904_060300.png)
+
+![](./Screenshot_20250904_060300.png)
+
+![](./Screenshot_20250904_060316.png)
+
+![](./Screenshot_20250904_061946.png)
+
+![](./Screenshot_20250904_062002.png)
