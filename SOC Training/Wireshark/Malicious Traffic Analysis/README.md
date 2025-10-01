@@ -30,8 +30,11 @@
 ## Screenshots  
 Please refer to the attached screenshots in this directory.  
 
-![Nmap Scans](./nmap_scans%20%201.png)
+## Nmap Scans Detection
+![](./nmap_scans%20%201.png)
 
 ![](./nmap_scans%20%202.png)
 
 ![](./nmap_scans%20%203.png)
+
+## ARP Poisoning & MITM Detection
