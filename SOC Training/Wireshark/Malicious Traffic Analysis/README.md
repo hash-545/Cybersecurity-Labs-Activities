@@ -30,7 +30,7 @@
 ## Screenshots  
 Please refer to the attached screenshots in this directory.  
 
-![Nmap Scan](./nmap_scans%20%201.png)
+![Nmap Scans](./nmap_scans%20%201.png)
 
 ![](./nmap_scans%20%202.png)
 
