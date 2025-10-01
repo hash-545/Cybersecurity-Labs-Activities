@@ -38,3 +38,65 @@ Please refer to the attached screenshots in this directory.
 ![](./nmap_scans%20%203.png)
 
 ## ARP Poisoning & MITM Detection
+![](./ARP_poisoning%20&%20MITM%201.png)
+
+![](./ARP_poisoning%20&%20MITM%202.png)
+
+![](./ARP_poisoning%20&%20MITM%203.png)
+
+## Host Identification
+![](./dhcp_netbios_kerberos%201.png)
+
+![](./dhcp_netbios_kerberos%202.png)
+
+![](./dhcp_netbios_kerberos%203.png)
+
+![](./dhcp_netbios_kerberos%204.png)
+
+![](./dhcp_netbios_kerberos%205.png)
+
+![](./dhcp_netbios_kerberos%206.png)
+
+## Tunneling Traffic: DNS & ICMP
+![](./dns%20tunneling%20traffic%201.png)
+
+![](./dns%20tunneling%20traffic%202.png)
+
+## FTP Analysis
+![](./ftp_analysis%201.png)
+
+![](./ftp_analysis%202.png)
+
+![](./ftp_analysis%203.png)
+
+## HTTP Analysis
+![](./http_traffic%201.png)
+
+![](./http_traffic%202.png)
+
+![](./http_traffic%203.png)
+
+![](./http_traffic%204.png)
+
+![](./http_traffic%205.png)
+
+![](./http_traffic%206.png)
+
+## Decrypting TLS & HTTPS
+![](./TLS%20&%20https%201.png)
+
+![](./TLS%20&%20https%202.png)
+
+![](./TLS%20&%20https%203.png)
+
+## Cleartext Credentials Hunt
+![](./Cleartext%20Creds%20Hunt%201.png)
+
+![](./Cleartext%20Creds%20Hunt%202.png)
+
+![](./Cleartext%20Creds%20Hunt%203.png)
+
+## IPFW in wireshark
+![](./IPFW%20Rules%201.png)
+
+![](./IPFW%20Rules%202.png)
