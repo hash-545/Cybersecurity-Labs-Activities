@@ -20,7 +20,7 @@
 - Started Suricata in IDS mode on the active interface  
 - Updated and enabled Suricata default rule sets  
 - Monitored fast.log in real time for alerts  
-- Executed ICMP flood using `hping3 -1 -i u2500 -c 100 <Suricata_IP>`  
+- Executed ICMP flood using `hping3 -1 -i u2500 -c 100 <Target_IP>`  
 - Created a custom ICMP threshold detection rule  
 - Restarted Suricata and confirmed alert generation  
 - Tested functionality using ICMP alert rule  
