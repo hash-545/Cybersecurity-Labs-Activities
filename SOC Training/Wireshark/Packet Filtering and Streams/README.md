@@ -1,5 +1,5 @@
 > /BlueTeaming/Wireshark
-# Wireshark
+# Wireshark - Filtering and Analysis
 
 ## Objective
 The objective of this lab was to practice **network packet analysis** using **Wireshark**. By working with provided packet capture (PCAP) files, we explored packet dissection, filtering, stream following, and traffic investigation techniques to understand how analysts detect anomalies and extract insights from raw network data.  
