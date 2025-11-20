@@ -1,6 +1,6 @@
 > /SOCTraining/Suricata/IDS Mode
 
-# Suricata - IDS Deployment
+# Suricata - Host-Based IDS Deployment
 
 ## Objectives
 - Deploy and configure Suricata IDS on Ubuntu Server  
