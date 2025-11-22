@@ -9,7 +9,7 @@
 
 ---
 
-This repository contains my completed **TryHackMe Labs & Activities**.  
+This repository contains my completed **Cybersecurity Labs, Activities & Projects**.
 Each directory includes:
 
 > - **Objectives** of the lab/project
