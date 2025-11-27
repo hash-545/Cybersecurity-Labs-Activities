@@ -63,6 +63,8 @@ Please refer to the attached screenshots in this directory.
 
 ![](./Screenshot_20251126_014325.png)
 
+![](./Screenshot_20251126_014335.png)
+
 ![](./Screenshot_20251127_190831.png)
 
-![](./Screenshot_20251127_191519.png)
+![](./Screenshot_20251127_221548.png)
