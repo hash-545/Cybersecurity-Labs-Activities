@@ -1,6 +1,6 @@
 > /SOCTraining/Suricata/IPS Mode
 
-# Suricata - Host-Based IPS Deployment
+# Suricata - Network-Based IPS Deployment
 
 ## Objectives
 - Configure Suricata to run in active IPS mode.
