@@ -94,7 +94,7 @@ Following successful detection, Suricata was switched to active Network Intrusio
 
 ![nfqueue](./IPS_1.png)
 
-1.  **IPtables NFQUEUE Rule:** An `iptables` rule was added to redirect inbound traffic into the Suricata queue: `sudo iptables -I INPUT -j NFQUEUE --queue-num 0`.
+2.  **IPtables NFQUEUE Rule:** An `iptables` rule was added to redirect inbound traffic into the Suricata queue: `sudo iptables -I INPUT -j NFQUEUE --queue-num 0`.
 
 ![iptables](./IPS_2.png)
 
@@ -115,6 +115,7 @@ Following image summarizes the procedure:\
 
 ### Topology
 In NIPS mode, the network topology is inline. All matching traffic is intercepted and redirected by IPtables into the Suricata process before being allowed to proceed to the destination application. Since the project was deployed on LAN, inline placement is shown on logical bases.
+
 ![nips_topology](./topology_nips.png)
 
 
@@ -127,6 +128,7 @@ The final phase involved reverting to the stable NIDS mode and integrating alert
 2.  **Wazuh Agent Installation:** The Wazuh Agent package was installed on the Ubuntu Server (`192.168.56.104`).
 
 ![agent_installation](./SIEM_3.png)
+
 ![agent_installation](./SIEM_2.png)
 
 
@@ -148,7 +150,7 @@ The final phase involved reverting to the stable NIDS mode and integrating alert
 
 ![dashboard](./SIEM_4.png)
 
-1.  **Final Validation:** An ICMP flood was simulated. The Wazuh Agent ingested the Suricata event and successfully transmitted it to the Manager, where the alert was displayed immediately on the dashboard.
+5.  **Final Validation:** An ICMP flood was simulated. The Wazuh Agent ingested the Suricata event and successfully transmitted it to the Manager, where the alert was displayed immediately on the dashboard.
 
 ![attack](./SIEM_6.png)
 
