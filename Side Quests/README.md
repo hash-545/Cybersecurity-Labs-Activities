@@ -4,11 +4,11 @@ The directory where all the fun, chaotic, non-sense projects go.\
 This is the land of “what if…”, late-night experiments, and things I build when I'm not busy pretending to be academically responsible.
 
 ### 📍 What lives here?
-- Tiny experiments born out of boredom  
-- Over-engineered tools absolutely nobody requested  
-- Personal labs, test environments, and tech doodles  
-- Ideas too weird to ever make it into a formal repo  
-- Curiosity-driven builds with no roadmap and no regrets  
+- Tiny experiments that grew out of boredom 
+- Over-engineered tools nobody asked for 
+- Personal labs, tests, and tech doodles 
+- Ideas too weird for formal projects 
+- Curiosity-driven builds with unclear goals
 
 ### 🗂️ Why this folder exists
 Because not everything needs to be an official project.\
