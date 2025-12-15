@@ -1,6 +1,6 @@
 > /SOCTraining/ELK/C2 Comm
 
-# C2 Communication Detection
+# C2 Communication Detection - ELK
 > Itsy Bitsy Challenge
 
 ## Objectives
