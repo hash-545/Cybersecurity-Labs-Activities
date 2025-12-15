@@ -32,11 +32,14 @@
 ## Screenshots
 Please refer to the attached screenshots in this directory.
 
+
 **Host Analysis**
 ![image](./NetMiner_1.png)
 
+
 **MAC Address Correlation**
 ![image](./NetMiner_2.png)
+
 
 **Credentials Hunt**
 ![image](./NetMiner_3.png)
@@ -45,6 +48,7 @@ Please refer to the attached screenshots in this directory.
 
 ![image](./NetMiner_11.png)
 
+
 **Files Analysis**
 ![image](./NetMiner_5.png)
 
@@ -52,16 +56,20 @@ Please refer to the attached screenshots in this directory.
 
 ![image](./NetMiner_10.png)
 
+
 **Fetching Email**
 ![image](./NetMiner_6.png)
 
+
 **Client-Server Analysis**
 ![image](./NetMiner_7.png)
+
 
 **Frames Analysis**
 ![image](./NetMiner_8.png)
 
 ![image](./NetMiner_12.png)
+
 
 **Results**
 ![image](./results_1.png)
