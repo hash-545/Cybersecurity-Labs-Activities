@@ -1,6 +1,6 @@
 > /SOCTraining/NetSecMonitoring/DataExfil
 
-# Data Exfiltration Detection – **DNS, FTP, HTTP & ICMP Analysis**
+# Data Exfiltration Detection
 
 ## Objectives
 - Understand how adversaries perform **data exfiltration** using common and covert protocols.
