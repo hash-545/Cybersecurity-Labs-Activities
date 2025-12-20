@@ -41,6 +41,12 @@ This activity was divided into **four practical analysis parts**, each focusing 
 - Confirmed **DNS-based data exfiltration** via tunneling.
 - Identified the external exfiltration domain and most active internal host.
 
+**DNS exfil logged**
+![](./dns_exfil_1.png)
+
+**DNS exfil host victim**
+![](./dns_exfil_2.png)
+
 
 ## **2. FTP-Based Data Exfiltration**
 
@@ -61,6 +67,14 @@ This activity was divided into **four practical analysis parts**, each focusing 
 - Identified compromised internal host and exfiltrated file.
 - Extracted hidden flag from FTP stream.
 
+**FTP exfil using guest account**
+![](./ftp_exfil_1.png)
+
+**Exfiltrated file of customer data**
+![](./ftp_exfil_2.png)
+
+**Stolen credentials from vicitm**
+![](./ftp_exfil_3.png)
 
 ## **3. HTTP-Based Data Exfiltration**
 
@@ -81,6 +95,12 @@ This activity was divided into **four practical analysis parts**, each focusing 
 - Correlated logs and network traffic successfully.
 - Identified compromised host and recovered hidden flag.
 
+**HTTP exfil victim**
+![](./http_exfil_1.png)
+
+**HTTP CTF captured**
+![](./http_exfil_2.png)
+
 
 ## **4. ICMP-Based Covert Exfiltration**
 
@@ -98,6 +118,9 @@ This activity was divided into **four practical analysis parts**, each focusing 
 - Confirmed **ICMP tunneling used for covert exfiltration**.
 - Extracted hidden flag from ICMP payload.
 
+**ICMP CTF captured**
+![](./icmp_exfil_1.png)
+
 
 ## Key Learnings
 - Data exfiltration often hides within **legitimate protocols**.
@@ -105,34 +128,6 @@ This activity was divided into **four practical analysis parts**, each focusing 
 - DNS, FTP, HTTP, and ICMP all present unique detection challenges.
 - **Correlation across network traffic and logs** is critical in SOC investigations.
 - Large payloads, unusual destinations, and abnormal frequencies are strong indicators of compromise.
-
-
-## Screenshots
-Relevant **Wireshark views, Splunk queries, and stream analysis screenshots** are available in this directory for reference.
-
-**DNS exfil logged**
-![](./dns_exfil_1.png)
-
-**DNS exfil host victim**
-![](./dns_exfil_2.png)
-
-**FTP exfil using guest account**
-![](./ftp_exfil_1.png)
-
-**Exfiltrated file of customer data**
-![](./ftp_exfil_2.png)
-
-**Stolen credentials from vicitm**
-![](./ftp_exfil_3.png)
-
-**HTTP exfil victim**
-![](./http_exfil_1.png)
-
-**CTF captured**
-![](./http_exfil_2.png)
-
-**CTF captured**
-![](./icmp_exfil_1.png)
 
 **Results**
 ![](./exfil_results_1.png)
