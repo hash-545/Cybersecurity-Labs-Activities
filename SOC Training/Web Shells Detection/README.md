@@ -29,28 +29,35 @@
 ## Screenshots
 Please refer to the attached screenshots in this directory.
 
-**A sample webshell with GUI**
+#### **A sample webshell with GUI**
 ![](./WebShell1.png)
+<br>
 
-**Suspicious IP detected**
+#### **Suspicious IP detected**<br>
 ![](./WebShell2.png)
+<br>
 
-**Ground-Zero for attack**
+#### **Ground-Zero for attack**
 ![](./WebShell3.png)
+<br>
 
-**Exploited attack surface**
+#### **Exploited attack surface**
 ![](./WebShell4.png)
+<br>
 
-**First executed command**
+#### **First executed command**
 Other commands can also be observed in the subsequent lines
 ![](./WebShell5.png)
+<br>
 
-**Privilege escalantion script**
+#### **Privilege escalantion script**
 linpeas: Linux Privilege Escalation Awesome Script
 ![](./WebShell6.png)
+<br>
 
-**CTF in the script**
+#### **CTF in the script**
 ![](./WebShell7.png)
+<br>
 
-**Results of case-study**
+#### **Results of case-study**
 ![](./Results.png)
