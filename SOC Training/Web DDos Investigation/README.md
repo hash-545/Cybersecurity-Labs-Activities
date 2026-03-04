@@ -1,5 +1,4 @@
-> SOC Trainging/WebDDoS Investigation
-
+> /SOC Training/WebDDoS Investigation
 # Web DDoS Investigation
 
 ## Objectives
