@@ -11,3 +11,7 @@ Activities include:
 - **Windows Hacking & Exploitation** – exploiting misconfigurations and vulnerabilities in Windows systems  
 
 These labs provide hands-on experience in **attacking, exploiting, and understanding vulnerabilities** to improve defensive strategies.
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

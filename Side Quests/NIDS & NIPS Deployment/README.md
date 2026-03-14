@@ -189,3 +189,5 @@ This architecture showcases the transition from network detection (Suricata) to 
 - **Traffic Flow Model:** The Endpoint NIPS model used in the project only inspects traffic destined for the local host's IP, with traffic stopping there for inspection. Conversely, a Gateway NIPS must be positioned as a network router, forcing all cross-network traffic to pass *through* it for inspection and forwarding to protect an entire downstream segment.
 
 ---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

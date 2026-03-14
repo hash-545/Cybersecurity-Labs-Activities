@@ -61,3 +61,7 @@ Understand SQL injection vulnerabilities in web applications and use **SQLMap** 
 Please refer to the attached screenshots in this directory
 
 ![](./Screenshot_20250819_010353.png)
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

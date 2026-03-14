@@ -23,3 +23,7 @@ It covers the fundamentals of cybersecurity, providing a solid foundation for of
 
 Check out the activity folders in this repo to dive into individual exercises.  
  
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

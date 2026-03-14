@@ -59,3 +59,8 @@ Please refer to the attached screenshots in this directory
 ![](./Windows%20Hacking%20-%20Eternal%20Blue/Screenshot_20250812_175058.png)
 
 ![](./Windows%20Hacking%20-%20Eternal%20Blue/Screenshot_20250812_175109.png)
+
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

@@ -42,3 +42,8 @@
 ![](./Screenshot_20251119_020049.png)
 
 ![](./Screenshot_20251118_231946.png)
+
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

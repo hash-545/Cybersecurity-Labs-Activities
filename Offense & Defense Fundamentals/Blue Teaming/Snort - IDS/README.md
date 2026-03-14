@@ -48,3 +48,7 @@ Learn the fundamentals of Intrusion Detection Systems (IDS), their types, and ha
 Please refer to the attached screenshots in this directory
 
 ![](./Snort%20Fundamentals%20Lab.png)
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

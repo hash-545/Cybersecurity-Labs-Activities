@@ -42,3 +42,7 @@ The objective of this lab is to practice **preprocessing digital evidence** usin
 Please refer to the attached screenshots in this directory
 
 ![](./Volatility%20intro.png)
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

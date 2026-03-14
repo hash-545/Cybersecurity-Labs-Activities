@@ -61,3 +61,8 @@ linpeas: Linux Privilege Escalation Awesome Script
 
 #### **Results of case-study**
 ![](./Results.png)
+
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=

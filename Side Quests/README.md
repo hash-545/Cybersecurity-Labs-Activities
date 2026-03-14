@@ -17,3 +17,7 @@ Some things just need a place to grow, break, get fixed, break again, and occasi
 ### ⚡ TL;DR
 Nothing serious. Nothing graded.\
 Just pure exploration, and small victories along the way.
+
+---
+
+> QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=
