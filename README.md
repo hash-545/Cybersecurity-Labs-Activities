@@ -18,5 +18,6 @@ Each project report includes:
 > - **Key learnings**
 > - **Screenshots**
 > - **Results & Findings**
+
 Use the README in each folder to explore specific lab activities.
 
