@@ -1,4 +1,4 @@
-> /SOCTraining/SIEM/Alert Triage
+> /SOCTraining/Splunk/Alert Triage
 
 # Alert Triage
 
