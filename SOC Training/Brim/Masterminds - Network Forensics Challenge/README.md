@@ -47,7 +47,7 @@ Primary goals were to identify victim endpoints, malicious domains and servers, 
 - External intelligence (VirusTotal, ThreatFox, URLhaus) is essential for naming malware and linking infrastructure to known campaigns.  
 - Phishing and removable-media infections remain high-risk initial access vectors; log evidence often shows subtle indicators that require careful querying.  
 
-## Screenshots as Proof of Work
+## Screenshots
 Please refer to attached screenshots in this directory
 
 ![](./Infection_A%20-%201.png)
