@@ -34,7 +34,7 @@ A Wi-Fi channel saturation tool built on the ESP32-S3 as part of a structured RF
 - CSMA/CA: how the MAC layer controls medium access and how jamming exploits it
 
 - 802.11 management frames: beacon, probe, auth, deauth, association
-- 
+
 - WPA2 weaknesses: unauthenticated management frames, handshake capture, PMKID
 
 - WPA3 improvements: SAE, Dragonfly key exchange, forward secrecy, PMF
@@ -82,8 +82,8 @@ include/
 | Component | Detail |
 |---|---|
 | MCU | ESP32-S3-DevKitM-1 |
-| Start button | GPIO 4 — active LOW |
-| Stop button | GPIO 5 — active LOW |
+| Start button | GPIO 4 |
+| Stop button | GPIO 5  |
 | Red LED | GPIO 6 — jamming indicator |
 | Green LED | GPIO 7 — idle indicator |
 | Resistors | 220Ω per LED |
