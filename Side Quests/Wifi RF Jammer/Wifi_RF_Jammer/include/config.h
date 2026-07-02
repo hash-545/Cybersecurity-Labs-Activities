@@ -3,8 +3,8 @@
 // ── Pin definitions ───────────────────────────────────────────────────────────
 #define PIN_BTN_START   4
 #define PIN_BTN_STOP    5
-#define PIN_LED_RED     18
-#define PIN_LED_GREEN   19
+#define PIN_LED_RED     6
+#define PIN_LED_GREEN   7
 
 // ── Jammer config ─────────────────────────────────────────────────────────────
 #define DWELL_MS        500     // ms to jam each channel per cycle
