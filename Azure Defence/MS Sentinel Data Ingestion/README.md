@@ -92,6 +92,7 @@ Once connector is configured, it starts logging and becomes active within 10 to 
 ## Key Learnings
 
 Microsoft Sentinel relies on data connectors to ingest security telemetry, while Content hub solutions simplify deployment by packaging required security content. Understanding connector configuration and permissions is essential for building an effective cloud security monitoring environment.
+
 ---
 
 > QXV0aG9yOiBodHRwczovL2dpdGh1Yi5jb20vaGFzaC01NDU=
