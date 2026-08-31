@@ -21,5 +21,4 @@ Each project report includes:
 
 Use the README in each folder to explore specific lab activities.
 
-Enjoy as you go. 
-Peace & Love	✌︎㋡
+Enjoy as you go. `Peace & Love ✌︎ ㋡`
