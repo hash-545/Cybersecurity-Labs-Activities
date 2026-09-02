@@ -18,7 +18,7 @@ AWS services are organised by categories, but the search function provides a fas
 
 For TryHackMe AWS environments, resources are generally deployed in the `us-east-1` region unless stated otherwise.
 
-![iam](./iam%20list.png)
+![iam](./iam_list.png)
 
 ### Using AWS CloudShell
 
