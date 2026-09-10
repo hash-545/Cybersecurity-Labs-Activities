@@ -36,7 +36,7 @@ A Security Group does not contain explicit deny rules. If traffic does not match
 
 However, a rule such as:
 
-```text
+```bash
 Source: 0.0.0.0/0
 Port: 3306
 ```
@@ -149,7 +149,7 @@ Next, let's inspect the database Security Group.
 
 The database Security Group allows:
 
-```text
+```bash
 MySQL (3306)
 Source: 0.0.0.0/0
 ```
@@ -165,7 +165,7 @@ The security review identified three major issues.
 
 **SSH Open to the Internet**
 
-```text
+```bash
 Port: 22
 Source: 0.0.0.0/0
 ```
@@ -177,7 +177,7 @@ A better approach is using AWS Systems Manager Session Manager (SSM), VPN-based 
 
 **MySQL Open to the Internet**
 
-```text
+```bash
 Port: 3306
 Source: 0.0.0.0/0
 ```
@@ -328,13 +328,13 @@ aws ec2 revoke-security-group-ingress \
 
 Instead of allowing:
 
-```text
+```bash
 0.0.0.0/0 → MySQL
 ```
 
 we allow:
 
-```text
+```bash
 Web Application SG → Database SG
 ```
 
@@ -456,13 +456,13 @@ management-sg
 
 Avoid:
 
-```text
+```bash
 Database allows 10.0.1.0/24
 ```
 
 Prefer:
 
-```text
+```bash
 Database allows web-tier-sg
 ```
 
@@ -497,7 +497,7 @@ Security Groups are simple controls, but small mistakes can create large securit
 
 A single rule such as:
 
-```text
+```bash
 3306 from 0.0.0.0/0
 ```
 
