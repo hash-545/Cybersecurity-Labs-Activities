@@ -41,13 +41,10 @@ When disabling security tools triggers critical alerts, threat actors pivot to b
 * **Name Squatting:** Naming malicious executables after legitimate system binaries like `svchost.exe`, `notepad.exe`, or `system.dll`.
 * **Signature Spoofing:** Signing malicious code with stolen or illegally generated digital certificates to pass trusted publisher checks.
 
----
 
 # Hunting The Evasion In Microsoft Defender XDR
 
 Let's shift into the investigation phase. Operating as a SOC Level 1 analyst using Microsoft Defender XDR, our task is to investigate an incident involving an attempt to neutralize host-based antivirus controls.
-
-## Initiating Triage & Ownership
 
 Let's begin by navigating to the central incident queue to establish responsibility and scope the alert.
 
@@ -82,7 +79,9 @@ The alert timeline displays a chronological breakdown of processes, child proces
 * **Executed Tool:** `reg.exe`
 * **Target Operation:** Registry key modification attempting to set Defender enforcement values to disabled.
 
+
 **The chain of commands executed**
+
 ![](./1.2_attack_cmd.png)
 
 Let's inspect the initiating process details to examine the exact command line executed by the threat actor:
@@ -108,7 +107,6 @@ Correlating authentication records for user `evil-xdr` reveals multiple failed a
 
 This pattern suggests a brute-force or credential-stuffing attack that successfully compromised the account, followed by an immediate attempt to disable local defenses.
 
----
 
 # Proactive Detection & Hunting
 
@@ -137,11 +135,11 @@ DeviceProcessEvents
 
 Running such queries check execution paths across all onboarded endpoints. Any instance of `svchost.exe` running from user profile paths, temporary folders, or non-standard directories highlights potential masquerading that warrants immediate containment.
 
+
 **A sophisticated command with pinpoint precision detecting tampering in defender portal**
+
 ![](./1.5_advance_hunting.png)
 
-
----
 
 # The Evidence Board
 
@@ -153,8 +151,6 @@ The investigation into `vm-evil-xdr` reveals a clear sequence of compromise and 
 | `Evasion Technique` | Registry modification via `reg.exe` targeting `DisableAntiSpyware`. | Direct `Impair Defense` execution attempt. |
 | `Process Lineage` | `cmd.exe` spawning `reg.exe` with elevated parameters. | Arbitrary local administrative command execution. |
 | `Threat Status` | Evasion attempt flagged and isolated prior to system-wide compromise. | EDR telemetry captured the modification attempt despite the registry edit. |
-
----
 
 # Hardening & Remediation
 
