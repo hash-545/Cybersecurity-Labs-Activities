@@ -108,6 +108,7 @@ Evidence can include:
 ![](./1.5_malicious_process.png)
 
 **Attacker's UAC Bypass Script**
+
 ![](./2.1_ps_command.png)
 ![](./2.2_ps_comm.png)
 
