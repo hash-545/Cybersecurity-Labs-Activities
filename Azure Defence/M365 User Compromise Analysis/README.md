@@ -74,13 +74,13 @@ In this scenario, the investigation begins with multiple `failed authentication`
 
 In our sandbox, using Splunk, Entra ID sign-in logs can be filtered with:
 
-```json
+```spl
 index=scenario sourcetype="azure:aad:signin"
 ```
 
 Failed authentication attempts can reveal useful indicators such as:
 
-```json
+```spl
 index="scenario" sourcetype="azure:aad:signin" "status.errorCode"!=0
 | stats count as event_count values(ipAddress) as ip_addresses values(appDisplayName) as applications values(status.errorCode) as errorCodes by userPrincipalName
 | sort - event_count
@@ -97,7 +97,7 @@ Common authentication failure codes include:
 
 After identifying the attacker IP, successful sign-ins from that address can reveal the compromised account.
 
-```json
+```spl
 index=scenario sourcetype="azure:aad:signin" "status.errorCode"=0 ipAddress="<ATTACKER-IP>"
 ```
 
@@ -133,7 +133,7 @@ A compromised account may be modified to maintain attacker access.
 
 Audit logs can be reviewed using:
 
-```json
+```spl
 index="scenario" sourcetype="azure:aad:audit"
 ```
 
@@ -183,7 +183,7 @@ Modify application permissions
 
 M365 activity is recorded in the Unified Audit Log. In Splunk, these events can be searched using:
 
-```json
+```spl
 index="scenario" sourcetype="o365:management:activity"
 ```
 
@@ -197,7 +197,7 @@ Important fields include:
 
 To investigate actions performed by the compromised account:
 
-```json
+```spl
 index="scenario" sourcetype="o365:management:activity" UserId="<USER-EMAIL>"
 | sort - _time
 | table _time, Operation, UserId, ClientIP, Workload, ObjectId
