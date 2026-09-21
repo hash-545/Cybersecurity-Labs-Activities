@@ -169,6 +169,7 @@ ssh <redacted>@<LinuxVM1_IP>
 **Successful SSH access to other VM**
 
 ![](./1.7_tyler_login.png)
+
 Once inside, the flag can be located:
 
 ```bash
@@ -179,7 +180,7 @@ cat ~/flag.txt
 **Second VM's Data is accessable**
 
 ![](./1.8_ctf.png)
-The lateral movement path is complete.
+
 
 # Breaking Down The Attack Chain
 
