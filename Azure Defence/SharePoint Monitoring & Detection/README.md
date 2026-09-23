@@ -253,7 +253,7 @@ The goal is not only removing the malicious file. A complete investigation must 
 
 A realistic SharePoint investigation requires connecting multiple events together instead of looking at isolated logs.
 
-SO the game is,
+So the game is,
 
 **The phone rings, it's the SOC manager:**
 
