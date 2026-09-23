@@ -253,12 +253,12 @@ The goal is not only removing the malicious file. A complete investigation must 
 
 A realistic SharePoint investigation requires connecting multiple events together instead of looking at isolated logs.
 
-The scenario is,
-```
-The phone rings, it's the SOC manager:
+SO the game is,
 
-"Hey, quick one: our CEO, Michael, wants us to look into a OneNote file that was just shared by Emma Lawson, our Head of Customer Relationships. The file seems suspicious, and he can't recall approving any pricing updates. Before your shift ends, could you take a look and make sure everything is clean? I'll forward you the screenshots Michael sent me; check your inbox:"
-```
+**The phone rings, it's the SOC manager:**
+
+**"Hey, quick one: our CEO, Michael, wants us to look into a `OneNote` file that was just shared by `Emma Lawson`, our Head of Customer Relationships. The file seems suspicious, and he can't recall approving any pricing updates. Before your shift ends, could you take a look and make sure everything is clean? I'll forward you the screenshots Michael sent me; check your inbox:"**
+
 
 ![](./scenario.png)
 
