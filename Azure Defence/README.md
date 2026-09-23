@@ -1,3 +1,5 @@
+![](./azure.png)
+
 # Azure Defence
 
 This repository contains my journey in `Azure Security`.
