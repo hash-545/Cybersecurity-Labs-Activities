@@ -1,3 +1,5 @@
+![](./aws.png)
+
 # AWS Defence
 
 This repository contains my journey in `AWS Cloud Security`.
