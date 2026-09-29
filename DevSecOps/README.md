@@ -1,4 +1,4 @@
-![](./devsecops-ii.png)
+![](./devsecops.png)
 
 # DevSecOps
 
