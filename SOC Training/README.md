@@ -1,5 +1,7 @@
 > /SOC Training
 
+![](./a.png)
+
 # SOC Training
 
 This directory contains practical labs and exercises in **defensive cybersecurity** with a focus on Security Operations Center (SOC) workflows.  
