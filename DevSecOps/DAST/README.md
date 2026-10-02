@@ -265,7 +265,7 @@ Build failed due to discovered vulnerabilities by ZAP
 ![](./5.7_build_failed.png)
 
 
-When ZAP discovers vulnerabilities that cause the security stage to fail, the build is marked accordingly. Jenkins keeps the generated reports inside the workspace, where they can be reviewed to understand what the scanner detected. [Read full ZAP report](./5_zap_report.html)
+When ZAP discovers vulnerabilities that cause the security stage to fail, the build is marked accordingly. Jenkins keeps the generated reports inside the workspace, where they can be reviewed to understand what the scanner detected. [Download full ZAP report (html)](./5_zap_report.html)
 
 ![](./5.8_report.png)
 
