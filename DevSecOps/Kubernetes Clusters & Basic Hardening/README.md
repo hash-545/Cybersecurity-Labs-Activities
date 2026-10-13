@@ -203,9 +203,11 @@ The Deployment defines an Nginx pod, while the NodePort Service exposes the appl
 
 Now applying the Service first, followed by the Deployment:
 
-`kubectl apply -f ~/Desktop/configuration/nginx-service.yaml`
+```bash
+kubectl apply -f ~/Desktop/configuration/nginx-service.yaml
 
-`kubectl apply -f ~/Desktop/configuration/nginx-deployment.yaml`
+kubectl apply -f ~/Desktop/configuration/nginx-deployment.yaml
+```
 
 Configuration is applied successfully and we get a success response
 
@@ -213,7 +215,9 @@ Configuration is applied successfully and we get a success response
 
 Verify that the application starts:
 
-`kubectl get pods -A`
+```bash
+kubectl get pods -A
+```
 
 ![](./1.6_pods_after.png)
 
@@ -250,13 +254,17 @@ Kubernetes Secrets are Base64-encoded by default, but that encoding does not pro
 
 Let's retrieve the username:
 
-**`kubectl get secret terminal-creds -o jsonpath='{.data.username}' | base64 --decode`**
+```bash
+kubectl get secret terminal-creds -o jsonpath='{.data.username}' | base64 --decode
+```
 
 ![](./1.9_user_decode.png)
 
 And then the password:
 
-**`kubectl get secret terminal-creds -o jsonpath='{.data.password}' | base64 --decode`**
+```bash
+kubectl get secret terminal-creds -o jsonpath='{.data.password}' | base64 --decode
+```
 
 ![](./2.0_pass_decode.png)
 
@@ -270,20 +278,26 @@ We've now seen how excessive Secret permissions can expose sensitive information
 
 Let's tighten access by creating two service accounts: `terminal-user` for routine activities and `terminal-admin` for authorized access to the credentials.
 
-**`kubectl create sa terminal-user`**
+```bash
+kubectl create sa terminal-user
 
-**`kubectl create sa terminal-admin`**
+kubectl create sa terminal-admin
+```
 
 
 ![](./2.2_creating_sa.png)
 
 Now let's inspect the supplied Role and RoleBinding manifests in `~/Desktop/configuration/rbac`:
 
-**`cat ~/Desktop/configuration/rbac/role.yaml`**
+```bash
+cat ~/Desktop/configuration/rbac/role.yaml
+```
 
 ![](./2.3_role.yaml.png)
 
-**`cat ~/Desktop/configuration/rbac/role-binding.yaml`**
+```bash
+cat ~/Desktop/configuration/rbac/role-binding.yaml
+```
 
 ![](./2.4_role-bind.yaml.png)
 
@@ -292,22 +306,28 @@ The `secret-admin` Role grants the `get` permission on the specific `terminal-cr
 
 Let's apply both configurations:
 
-**`kubectl apply -f ~/Desktop/configuration/rbac/role.yaml`**
+```bash
+kubectl apply -f ~/Desktop/configuration/rbac/role.yaml
 
-**`kubectl apply -f ~/Desktop/configuration/rbac/role-binding.yaml`**
+kubectl apply -f ~/Desktop/configuration/rbac/role-binding.yaml
+```
 
 ![](./2.5_apply_roles.png)
 
 
 Time to confirm that our permissions work as intended using `kubectl auth can-i`. First, check whether the regular service account can retrieve the Secret:
 
-**`kubectl auth can-i get secret/terminal-creds --as=system:serviceaccount:default:terminal-user`**
+```bash
+kubectl auth can-i get secret/terminal-creds --as=system:serviceaccount:default:terminal-user
+```
 
 We expect `no`. 
 
 Next, check the administrative account:
 
-**`kubectl auth can-i get secret/terminal-creds --as=system:serviceaccount:default:terminal-admin`**
+```bash
+kubectl auth can-i get secret/terminal-creds --as=system:serviceaccount:default:terminal-admin
+```
 
 We expect `yes`.
 
