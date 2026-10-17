@@ -158,12 +158,8 @@ Now to verify that the host kernel has AppArmor active:
 ```bash
 sudo aa-status
 
-```
-
-```text
 apparmor module is loaded.
 34 profiles are loaded.
-
 ```
 
 Next, let's load a custom AppArmor profile (`docker-apache-secure`) into the kernel using `apparmor_parser`:
@@ -280,7 +276,7 @@ By specifying `--read-only`, we turn the container's root filesystem into a read
 
 Now that we have established the theoretical security controls, let's put theory into practice. In this section, we transition to an active investigation environment to audit running containers, inspect Docker image layers, and scan exported container filesystems using the open-source vulnerability scanner **Grype**.
 
-## Identifying Running Assets
+### Identifying Running Assets
 
 Before auditing vulnerabilities, we need to establish asset visibility across our target system. 
 
@@ -295,7 +291,7 @@ docker ps
 
 The output confirms our target **running container name:** `couchdb`
 
-## Deep Image Layer Inspection with Grype
+### Deep Image Layer Inspection with Grype
 
 Scanning a container's runtime memory is often insufficient because vulnerable libraries can reside within unexecuted image layers. To perform an exhaustive audit, we utilize Grype with `--scope all-layers` to scan every layer present in the image build history.
 
@@ -317,7 +313,7 @@ grype struts2 --scope all-layers
 
 Reviewing the vulnerability findings, the scan flags a severe security flaw in the Apache Struts core framework. **Critical Library Identified:** `struts2-core`, associated with critical Remote Code Execution vulnerabilities like CVE-2017-5638.
 
-## Auditing Exported Container Filesystems
+### Auditing Exported Container Filesystems
 
 In forensic scenarios or offline CI/CD pipelines, security engineers often analyze exported container filesystems (`tar` archives) directly without loading them into the local Docker daemon.
 
