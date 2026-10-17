@@ -67,7 +67,7 @@ docker inspect hardened-web | grep -E "Memory|CpuQuota"
 
 Setting explicit limits ensures that even if an application suffers a severe memory leak or runs a malicious cryptominer, the impact remains isolated to the designated container limits.
 
-# Principal of Least Privilege: Capabilities & Isolation
+# Principle of Least Privilege: Capabilities & Isolation
 
 By default, Docker executes non-privileged containers with a restricted set of root privileges. However, executing containers with the `--privileged` flag strips all isolation boundaries, presenting the container with full root access to the host kernel, physical devices, and file systems.
 
