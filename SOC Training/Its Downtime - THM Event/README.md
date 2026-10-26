@@ -14,9 +14,9 @@ A 24-hour drill featuring 8 hands-on SOC simulations focused on
 
 - Payload & Script Analysis
 ```
-Tracked adversary TTPs from `initial execution through persistence, remote access, and data exfiltration` across 8 unique simulations.
+Playing lone wolf, tracked adversary TTPs from `initial execution through persistence, remote access, and data exfiltration` across 8 unique simulations.
 
-A lot of coffee, a lot of logs, and a lot of fun!!!
+> A lot of coffee, a lot of logs, and a lot of fun!!!
 
 ![](./img.png)
 
